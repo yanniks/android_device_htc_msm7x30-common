@@ -32,10 +32,7 @@ TARGET_HAVE_TSLIB := false
 TARGET_EXTRA_CFLAGS += $(call cc-option,-march=armv7-a -mtune=cortex-a8)
 TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
-TARGET_USE_SCORPION_BIONIC_OPTIMIZATION := true
-TARGET_USE_SCORPION_PLD_SET := true
-TARGET_SCORPION_BIONIC_PLDOFFS := 6
-TARGET_SCORPION_BIONIC_PLDSIZE := 128
+TARGET_USE_SPARROW_BIONIC_OPTIMIZATION := true
 
 TARGET_SPECIFIC_HEADER_PATH := device/htc/msm7x30-common/include
 
