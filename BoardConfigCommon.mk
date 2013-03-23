@@ -28,11 +28,11 @@ ARCH_ARM_HAVE_VFP := true
 ARCH_ARM_HAVE_NEON := true
 USE_MALLOC_ALIGNMENT := 16
 TARGET_HAVE_TSLIB := false
-TARGET_ARCH_VARIANT_CPU := cortex-a9
+TARGET_ARCH_VARIANT_CPU := cortex-a8
 
-TARGET_EXTRA_CFLAGS += $(call cc-option,-march=armv7-a -mtune=cortex-a9)
-TARGET_GLOBAL_CFLAGS += -mfpu=neon -mcpu=cortex-a9 -mtune=cortex-a9 -mfloat-abi=softfp
-TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mcpu=cortex-a9 -mtune=cortex-a9 -mfloat-abi=softfp
+TARGET_EXTRA_CFLAGS += $(call cc-option,-march=armv7-a -mtune=cortex-a8)
+TARGET_GLOBAL_CFLAGS += -mfpu=neon -mcpu=cortex-a8 -mtune=cortex-a8 -mfloat-abi=softfp
+TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mcpu=cortex-a8 -mtune=cortex-a8 -mfloat-abi=softfp
 TARGET_USE_SPARROW_BIONIC_OPTIMIZATION := true
 TARGET_USE_KRAIT_PLD_SET := true
 TARGET_KRAIT_BIONIC_PLDOFFS := 10
