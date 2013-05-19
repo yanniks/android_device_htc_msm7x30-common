@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Advanced settings</string>
+    <string name="category_kernel_title">Kernel</string>
+    <string name="fast_charge_title">Force fast charge</string>
+    <string name="fast_charge_summary">This allows user to force AC charging for any charger that is detected as USB (e.g. many car chargers).</string>
+    <string name="sweep2wake_title">Sweep2Wake</string>
+    <string name="sweep2wake_summary">Enable sweep2wake feature (NOTE: This feature is currently in experimental state and it can cause unexpected side effects.)</string>
+</resources>
