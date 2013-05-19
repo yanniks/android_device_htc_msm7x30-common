@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/app_name">
+
+    <!-- Kernel features -->
+    <PreferenceCategory android:key="category_kernel"
+        android:title="@string/category_kernel_title">
+        <CheckBoxPreference
+            android:key="fast_charge"
+            android:title="@string/fast_charge_title"
+            android:summary="@string/fast_charge_summary"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="sweep2wake"
+            android:title="@string/sweep2wake_title"
+            android:summary="@string/sweep2wake_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>
