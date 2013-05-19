@@ -75,8 +75,7 @@ PRODUCT_PACKAGES += \
     libmemalloc \
     liboverlay \
     libQcomUI \
-    libtilerenderer \
-    libdashplayer
+    libtilerenderer
 
 #wireless
 PRODUCT_PACKAGES += \
@@ -110,6 +109,10 @@ PRODUCT_PACKAGES += \
 # Torch
 PRODUCT_PACKAGES += \
     Torch
+
+# DeviceSettings
+PRODUCT_PACKAGES += \
+    DeviceSettings
 
 # Filesystem management tools
 PRODUCT_PACKAGES += \
