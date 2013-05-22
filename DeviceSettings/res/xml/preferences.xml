@@ -6,6 +6,11 @@
     <PreferenceCategory android:key="category_kernel"
         android:title="@string/category_kernel_title">
         <CheckBoxPreference
+            android:key="dyn_fsync"
+            android:title="@string/dyn_fsync_title"
+            android:summary="@string/dyn_fsync_summary"
+            android:defaultValue="false" />
+        <CheckBoxPreference
             android:key="fast_charge"
             android:title="@string/fast_charge_title"
             android:summary="@string/fast_charge_summary"
