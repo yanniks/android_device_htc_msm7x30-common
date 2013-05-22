@@ -27,10 +27,12 @@ import com.cyanogenmod.settings.device.R;
 
 public class DevicePreferenceActivity extends PreferenceFragment {
 
+    public static final String KEY_DYN_FSYNC = "dyn_fsync";
     public static final String KEY_FAST_CHARGE = "fast_charge";
     public static final String KEY_SWEEP2WAKE = "sweep2wake";
 
     private Context context;
+    private CheckBoxPreference mDynFsync;
     private CheckBoxPreference mFastCharge;
     private CheckBoxPreference mSweep2Wake;
 
@@ -40,6 +42,10 @@ public class DevicePreferenceActivity extends PreferenceFragment {
 
         addPreferencesFromResource(R.xml.preferences);
         context = getActivity().getApplication();
+
+        mDynFsync = (CheckBoxPreference) findPreference(KEY_DYN_FSYNC);
+        mDynFsync.setChecked(DynFsync.isEnabled());
+        mDynFsync.setEnabled(DynFsync.isSupported());
 
         mFastCharge = (CheckBoxPreference) findPreference(KEY_FAST_CHARGE);
         mFastCharge.setChecked(FastCharge.isEnabled());
@@ -52,7 +58,13 @@ public class DevicePreferenceActivity extends PreferenceFragment {
 
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
-        if (preference == mFastCharge) {
+        if (preference == mDynFsync) {
+            if (mDynFsync.isChecked())
+                DynFsync.enable(context);
+            else
+                DynFsync.disable(context);
+            return true;
+        } else if (preference == mFastCharge) {
             if (mFastCharge.isChecked())
                 FastCharge.enable(context);
             else

@@ -2,6 +2,8 @@
 <resources>
     <string name="app_name">Advanced settings</string>
     <string name="category_kernel_title">Kernel</string>
+    <string name="dyn_fsync_title">Dynamic sync control</string>
+    <string name="dyn_fsync_summary">While screen is on, file sync is disabled. When screen is off, a file sync is called to flush all outstanding writes and restore file sync operation as normal. Turn this off for better data integrity in lieu of performance.</string>
     <string name="fast_charge_title">Force fast charge</string>
     <string name="fast_charge_summary">This allows user to force AC charging for any charger that is detected as USB (e.g. many car chargers).</string>
     <string name="sweep2wake_title">Sweep2Wake</string>
