@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cài đặt nâng cao</string>
+    <string name="category_kernel_title">Kernel</string>
+    <string name="dyn_fsync_title">Kiểm soát đồng bộ năng động</string>
+    <string name="dyn_fsync_summary">Trong khi màn hình bật, đồng bộ tập tin bị vô hiệu hóa. Khi màn hình tắt, đồng bộ tập tin xóa tất cả các dữ liệu chưa được giải quyết và phục hồi hoạt động đồng bộ hóa tập tin như bình thường. Vô hiệu hóa tùy chọn này sẽ đạt được toàn vẹn dữ liệu và tốc độ.</string>
+    <string name="fast_charge_title">Chế độ sạc nhanh</string>
+    <string name="fast_charge_summary">Cho phép người dùng buộc AC sạc cho bất kỳ loại sạc được phát hiện là USB (ví dụ như nhiều bộ sạc xe hơi).</string>
+    <string name="sweep2wake_title">Sweep2Wake</string>
+    <string name="sweep2wake_summary">Kích hoạt chức năng Sweep2wake (CẢNH BÁO: Chức năng vẫn đang trong quá trình thử nghiệm, có thể gây nên một số lỗi.)</string>
+</resources>
