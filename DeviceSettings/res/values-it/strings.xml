@@ -3,9 +3,9 @@
     <string name="app_name">Impostazioni avanzate</string>
     <string name="category_kernel_title">Kernel</string>
     <string name="dyn_fsync_title">Controllo dinamico sincronizzazione</string>
-    <string name="dyn_fsync_summary">Quando lo schermo e' acceso la sincronizzazione e' disattivata. Quando lo schermo e' spento, una richiesta di sincronizzazione riattivera' la sincronizzazione. Disabilita per una migliore integrita' dei dati a discapito delle prestazioni</string>
+    <string name="dyn_fsync_summary">Quando lo schermo e\' acceso la sincronizzazione e\' disattivata. Quando lo schermo e\' spento, una richiesta di sincronizzazione riattivera\' la sincronizzazione. Disabilita per una migliore integrita\' dei dati a discapito delle prestazioni</string>
     <string name="fast_charge_title">Forza carica rapida</string>
     <string name="fast_charge_summary">Permette di forzare la ricarica con qualsiasi caricatore che viene rilevato come USB (ad es. molti caricatori da auto).</string>
     <string name="sweep2wake_title">Sweep2Wake</string>
-    <string name="sweep2wake_summary">Abilita la funzione Sweep2Wake (Nota: questa funzione e' sperimentale e puo' causare effetti indesiderati.</string>
+    <string name="sweep2wake_summary">Abilita la funzione Sweep2Wake (Nota: questa funzione e\' sperimentale e puo\' causare effetti indesiderati.)</string>
 </resources>

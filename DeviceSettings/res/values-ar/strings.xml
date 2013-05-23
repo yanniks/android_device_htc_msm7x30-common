@@ -7,5 +7,5 @@
     <string name="fast_charge_title">فرض الشحن السريع</string>
     <string name="fast_charge_summary">هذا الخيار يسمح للمستخدم فرض التعامل مع أي شاحن كشاحن تيار متردد حين يتم الكشف عنه كشاحن USB (مثل العديد من شواحن السيارات).</string>
     <string name="sweep2wake_title">Sweep2Wake</string>
-    <string name="sweep2wake_summary">تمكين ميزة sweep2wake (ملاحظة: هذه الميزة في حالة تجريبية و يمكن أن تتسبب في آثار جانبية غير متوقعة)</string>
+    <string name="sweep2wake_summary">تمكين ميزة Sweep2Wake (ملاحظة: هذه الميزة في حالة تجريبية و يمكن أن تتسبب في آثار جانبية غير متوقعة)</string>
 </resources>
