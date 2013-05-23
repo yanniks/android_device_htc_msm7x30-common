@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Haladó beállítások</string>
+    <string name="category_kernel_title">Kernel</string>
+    <string name="dyn_fsync_title">Dinamikus szinkronizáció</string>
+    <string name="dyn_fsync_summary">A képernyő bekapcsolt állapotában a fájlszinkronizálás felfüggesztésre kerül. Amikor a képernyő kikapcsol, a fájlszinkronizálás befejez minden el nem végzett írási műveletet, és visszaállítja a fájlszinkronizálást a normál módba. Kapcsolja ki ha fontosabb az adatbiztonság mint a teljesítmény!</string>
+    <string name="fast_charge_title">Kényszerített gyorstöltés</string>
+    <string name="fast_charge_summary">Lehetővé teszi a felhasználó számára, hogy kényszerített módon hálózati töltőnek minősítsen bármilyen USB töltőt (pl. autós töltők)</string>
+    <string name="sweep2wake_title">Sweep2Wake</string>
+    <string name="sweep2wake_summary">Sweep2wake funkció engedélyezése (Megjegyzés: Ez a funkció jelenleg kísérleti stádiumban van, és okozhat váratlan mellékhatásokat.)</string>
+</resources>
