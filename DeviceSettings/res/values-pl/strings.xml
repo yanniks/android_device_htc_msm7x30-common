@@ -7,5 +7,5 @@
     <string name="fast_charge_title">Wymuś szybkie ładowanie</string>
     <string name="fast_charge_summary">Pozwala użytkownikowi na wymuszenie szybkiego ładowania dla każdej ładowarki wykrytej jako USB (np.: wiele ładowarek samochodowych).</string>
     <string name="sweep2wake_title">"Przeciągnij aby obudzić" (Sweep2Wake)</string>
-    <string name="sweep2wake_summary">Włącza funkcję sweep2wake (UWAGA: Ta funkcja jest obecnie w fazie eksperymentalnej i może powodować nieoczekiwane skutki uboczne.)</string>
+    <string name="sweep2wake_summary">Włącza funkcję Sweep2Wake (UWAGA: Ta funkcja jest obecnie w fazie eksperymentalnej i może powodować nieoczekiwane skutki uboczne.)</string>
 </resources>

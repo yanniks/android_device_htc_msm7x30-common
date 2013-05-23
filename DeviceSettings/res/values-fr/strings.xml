@@ -7,5 +7,5 @@
     <string name="fast_charge_title">Forcer la charge rapide</string>
     <string name="fast_charge_summary">Cette option permet à l\'utilisateur de forcer l\'alimentation AC pour tout chargeur détecté comme USB (par ex. de nombreux chargeurs pour voitures).</string>
     <string name="sweep2wake_title">Sweep2Wake</string>
-    <string name="sweep2wake_summary">Activer la fonction Sweep2wake (NOTE: Cette fonctionnalité est actuellement en phase expérimentale et peut provoquer des effets collatéraux inattendus.)</string>
+    <string name="sweep2wake_summary">Activer la fonction Sweep2Wake (NOTE: Cette fonctionnalité est actuellement en phase expérimentale et peut provoquer des effets collatéraux inattendus.)</string>
 </resources>

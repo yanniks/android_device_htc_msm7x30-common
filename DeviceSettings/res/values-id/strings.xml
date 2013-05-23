@@ -7,5 +7,5 @@
     <string name="fast_charge_title">Pengisian Daya Cepat</string>
     <string name="fast_charge_summary">Fitur ini mengizinkan pengguna memaksa pengisian daya AC untuk pengisi daya apapun yang terdeteksi sebagai USB (mis. pengisi daya mobil).</string>
     <string name="sweep2wake_title">Sweep2Wake</string>
-    <string name="sweep2wake_summary">Mengaktifkan fitur sweep2wake (CAT: Fitur ini adalah fitur eksperimental, dapat mengakibatkan efek samping yang tidak diinginkan.)</string>
+    <string name="sweep2wake_summary">Mengaktifkan fitur Sweep2Wake (CAT: Fitur ini adalah fitur eksperimental, dapat mengakibatkan efek samping yang tidak diinginkan.)</string>
 </resources>

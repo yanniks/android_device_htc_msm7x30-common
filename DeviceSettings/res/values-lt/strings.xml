@@ -7,5 +7,5 @@
     <string name="fast_charge_title">Priversti greitą krovimą</string>
     <string name="fast_charge_summary">Tai leidžia naudotojui priversti pakrovimą iš bet kokio pakrovėjo aptikto kaip USB (pvz. automobilių pakrovėjai).</string>
     <string name="sweep2wake_title">Velkti, kad pabusti (Sweep2Wake)</string>
-    <string name="sweep2wake_summary">Įjungia sweep2wake funkcija (PASTABA: Ši funkcija šiuo metu yra eksperimentinėje stadijoje, todėl gali sukelti šalutinius poveikius.)</string>
+    <string name="sweep2wake_summary">Įjungia Sweep2Wake funkcija (PASTABA: Ši funkcija šiuo metu yra eksperimentinėje stadijoje, todėl gali sukelti šalutinius poveikius.)</string>
 </resources>

@@ -7,5 +7,5 @@
     <string name="fast_charge_title">Prisilno brzo punjenje</string>
     <string name="fast_charge_summary">Omogućuje korisniku da prisili AC punjenje za bilo koji izvor ako je prepoznat kao USB (npr. mnogi auto punjači).</string>
     <string name="sweep2wake_title">Sweep2Wake</string>
-    <string name="sweep2wake_summary">Omogući sweep2wake značajku (NAPOMENA: Ova značajka je trenutno u eksperimentalnoj fazi i može doći do neočekivanih nuspojava.)</string>
+    <string name="sweep2wake_summary">Omogući Sweep2Wake značajku (NAPOMENA: Ova značajka je trenutno u eksperimentalnoj fazi i može doći do neočekivanih nuspojava.)</string>
 </resources>
