@@ -11,5 +11,11 @@ public class Startup extends BroadcastReceiver {
         DynFsync.restore(context);
         FastCharge.restore(context);
         Sweep2Wake.restore(context);
+        AllowStroke.restore(context);
+        MinDistance.restore(context);
+        RegisterThreshold.restore(context);
+        DoubleTap2Wake.restore(context);
+        MinDuration.restore(context);
+        MaxDuration.restore(context);
     }
 }
