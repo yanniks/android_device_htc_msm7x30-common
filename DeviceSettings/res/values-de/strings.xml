@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Erweiterte Einstellungen</string>
+    <string name="category_general_title">Allgemein</string>
     <string name="category_kernel_title">Kernel</string>
     <string name="dyn_fsync_title">Dynamische Sync-Kontrolle</string>
     <string name="dyn_fsync_summary">Solange der Bildschirm an ist, ist die Dateisystemsynchronisation ausgeschaltet. Beim Ausschalten des Bildschirms wird eine Synchronisation erzwungen, um alle austehenden Schreiboperationen durchzuführen und die Dateisystemsynchronisation wird wieder aktiviert.</string>
     <string name="fast_charge_title">Erzwinge Schnellaufladung</string>
     <string name="fast_charge_summary">Erlaubt das Laden des Akkus mit maximal möglicher Leistung auch über USB-Anschlüsse.</string>
+    <string name="sweep2wake_summaryOn">Sweep2Wake aktiviert</string>
+    <string name="s2w_allow_stroke_title">Erlaube streichen</string>
+    <string name="s2w_allow_stroke_summary">In beide Richtungen wischen</string>
+    <string name="s2w_min_distance_title">Minimalentfernung</string>
+    <string name="s2w_min_distance_summary">Setze Minimalwischdistanz</string>
+    <string name="s2w_register_threshold_title">Registriere Beginn</string>
+    <string name="s2w_register_threshold_summary">Setze registrierten Beginn</string>
+    <string name="sweep2wake_summaryOff">Sweep2Wake deaktiviert</string>
+    <string name="dt2w_min_duration_title">Minimaltipplänge</string>
+    <string name="dt2w_min_duration_summary">Setze Minimaltipplänge</string>
+    <string name="dt2w_max_duration_title">Maximaltipplänge</string>
+    <string name="dt2w_max_duration_summary">Setze Maximaltipplänge</string>
+    <string name="doubletap2wake_summaryOn">DoubleTap2Wake aktiviert</string>
+    <string name="doubletap2wake_summaryOff">DoubleTap2Wake deaktiviert</string>
     <string name="sweep2wake_title">Sweep2Wake</string>
     <string name="sweep2wake_summary">Aktiviere Sweep2Wake (Wischgeste zum Wecken des Gerätes). Bemerkung: Diese Funktionalität ist noch experimentell!</string>
 </resources>
