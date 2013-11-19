@@ -1,4 +1,3 @@
-
 # Used to disable USB when switching states
 on property:sys.usb.config=none
     exec /system/bin/netcfg usb0 down
@@ -9,7 +8,7 @@ on property:sys.usb.config=none
 
 on property:sys.usb.config=adb
     start adbd
-    write /sys/devices/platform/android_usb/usb_function_switch 2 
+    write /sys/devices/platform/android_usb/usb_function_switch 2
     setprop sys.usb.state ${sys.usb.config}
 
 on property:sys.usb.config=mass_storage,adb
@@ -41,7 +40,6 @@ on property:sys.usb.config=mtp,adb
     write /sys/devices/platform/android_usb/usb_function_switch 130
     setprop sys.usb.state ${sys.usb.config}
 
-
 on property:sys.usb.config=ptp
     write /sys/class/android_usb/android0/f_ptp/on 1
     write /sys/devices/platform/android_usb/usb_function_switch 128
@@ -52,4 +50,3 @@ on property:sys.usb.config=ptp,adb
     write /sys/class/android_usb/android0/f_ptp/on 1
     write /sys/devices/platform/android_usb/usb_function_switch 130
     setprop sys.usb.state ${sys.usb.config}
-
