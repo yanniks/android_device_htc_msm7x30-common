@@ -92,8 +92,7 @@ PRODUCT_PACKAGES += \
 
 # Misc
 PRODUCT_PACKAGES += \
-    com.android.future.usb.accessory \
-    libsurfaceflinger_client
+    com.android.future.usb.accessory
 
 # Torch
 PRODUCT_PACKAGES += \
