@@ -48,10 +48,6 @@ PRODUCT_COPY_FILES += \
     device/htc/msm7x30-common/media_codecs.xml:system/etc/media_codecs.xml \
     device/htc/msm7x30-common/audio_policy.conf:system/etc/audio_policy.conf
 
-# Camera
-PRODUCT_COPY_FILES += \
-    device/htc/msm7x30-common/prebuilt/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so
-
 # adb hack
 PRODUCT_COPY_FILES += \
     device/htc/msm7x30-common/prebuilt/20fixup:system/etc/init.d/20fixup
