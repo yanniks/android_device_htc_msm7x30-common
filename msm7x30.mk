@@ -52,10 +52,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/htc/msm7x30-common/prebuilt/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so
 
-# adb hack
-PRODUCT_COPY_FILES += \
-    device/htc/msm7x30-common/prebuilt/20fixup:system/etc/init.d/20fixup
-
 PRODUCT_PACKAGE_OVERLAYS += device/htc/msm7x30-common/overlay
 
 # Audio
@@ -70,6 +66,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     copybit.msm7x30 \
     gralloc.msm7x30 \
+    hwcomposer.msm7x30 \
     libgenlock \
     libmemalloc \
     liboverlay \
@@ -96,8 +93,7 @@ PRODUCT_PACKAGES += \
 
 # Misc
 PRODUCT_PACKAGES += \
-    com.android.future.usb.accessory \
-    libsurfaceflinger_client
+    com.android.future.usb.accessory
 
 # Torch
 PRODUCT_PACKAGES += \
