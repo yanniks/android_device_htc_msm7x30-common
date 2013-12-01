@@ -29,7 +29,7 @@ public class VibratorHW {
     }
 
     public static int getMaxIntensity()  {
-        return 3100;
+        return 3000;
     }
     public static int getMinIntensity()  {
         return 1200;
