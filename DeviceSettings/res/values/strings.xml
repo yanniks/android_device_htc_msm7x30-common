@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Advanced settings</string>
+    <string name="app_name">Device Settings</string>
     <string name="category_general_title">General</string>
     <string name="category_sweep2wake_title">Sweep2Wake</string>
     <string name="category_doubletap2wake_title">DoubleTap2Wake</string>
