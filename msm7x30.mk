@@ -65,7 +65,8 @@ PRODUCT_PACKAGES += \
     audio_policy.msm7x30 \
     libaudioutils \
     libtinyalsa \
-    libaudio-resampler
+    libaudio-resampler \
+    libaudioparameter
 
 # Video
 PRODUCT_PACKAGES += \
