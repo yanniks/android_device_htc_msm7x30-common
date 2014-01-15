@@ -79,7 +79,6 @@ PRODUCT_PACKAGES += \
 # HAL
 PRODUCT_PACKAGES += \
 	power.msm7x30 \
-	gps.msm7x30 \
 	lights.msm7x30 \
 	sensors.msm7x30
 
